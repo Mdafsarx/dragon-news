@@ -7,7 +7,7 @@ const RightSideCard = ({News}) => {
                 <p className=" mt-3 font-bold">{News.title}</p>
             </div>
             <div>
-                <span>{}</span>
+                <span></span>
             </div>
         </div>
     );
