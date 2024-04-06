@@ -15,7 +15,7 @@ const Login = () => {
         const password = from.get('password');
         Login(email, password)
             .then(() => {
-               navigate(state.state)
+               navigate(state.state?state.state:'/')
                alert('successfully login')
             })
 
